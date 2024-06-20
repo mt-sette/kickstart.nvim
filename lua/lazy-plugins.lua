@@ -10,7 +10,7 @@
 --
 require('lazy').setup({
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
-
+  'mattn/emmet-vim',
   require 'kickstart.plugins.comment',
   require 'kickstart.plugins.which-key',
   require 'kickstart.plugins.nvim-telescope',
